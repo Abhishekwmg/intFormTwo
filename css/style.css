@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b1b1c;
+    color: #f1efe5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    width: 50px;
+}
+
+.header .logo img{
+    width: inherit;
+    margin-left: 40px;
+}
+
+.header .contact ul li a{
+    margin-right: 25px;
+}
+
+.header nav .navigation {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+.heading h1 {
+    color: #f1efe5;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    margin-left: 40px;
+}
+
+.main-content {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.left-section {
+    width: 800px;
+}
+
+.left-section p {
+    width: 450px;
+    padding: 25px 45px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.left-section p span {
+    padding-right: 10px;
+}
+
+.right-section {
+    /* flex-basis: 950px; */
+    align-items: center;
+}
+
+form .flex-container {
+    display: flex;
+}
+
+.flex-container .fname {
+    padding-right: 10px;
+}
+
+.flex-container .company {
+    padding-right: 10px;
+}
+
+.flex-container .phone {
+    padding-right: 10px;
+}
+
+form .website input{
+    width: 84%;
+}
+
+form .check {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+form .check input {
+    width: 15px;
+    margin-right: 20px;
+}
+
+form .check .para{
+    width: 75%;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #494947;
+    outline: none;
+    color: #fff;
+    padding: 15px 2px;
+    width: 270px;
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in;
+}
+
+input:hover{
+    border-bottom: 1px solid #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select {
+    border: none;
+    background-color: #1b1b1c;
+    border-bottom: 1px solid #494947;
+    padding: 14px 0;
+    width: 270px;
+    color: #fff;
+}
+
+select:hover{
+    border-bottom: 1px solid #fff;
+}
+
+textarea {
+    color: #fff;
+    height: 70px;
+    margin-top: 10px;
+    background: #1b1b1c;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #494947;
+    width: 84%;
+    transition: all 0.2s ease-in;
+}
+
+textarea:hover{
+    border-bottom: 1px solid #fff;
+}
+
+form button {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 250px;
+    padding: 18px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 6  00;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background-color: #fff;
+    color: #000;
+}
